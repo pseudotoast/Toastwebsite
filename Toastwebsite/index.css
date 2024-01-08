@@ -1,0 +1,42 @@
+h1 {
+font-family: "Lucida Sans Unicode"; 
+font-size: 35px;
+}
+
+p {
+font-family: "Lucida Sans Unicode"; 
+font-size: 20px;
+}
+
+.artbutton {
+max-width: 64px;
+max-height: 64px;
+}
+
+body {
+background-image: url(assets/cattexture.png);
+background-repeat: repeat;
+background-size: 256px;
+}
+
+.buttonrow {
+border: none;
+background: transparent;
+margin: 2px;
+}
+
+.buttonrow:hover {
+border: solid 2px;
+border-color: blue;
+margin: 0px;
+}
+
+.buttoncontainer {
+flex-direction: row;
+}
+
+
+.hellhole {
+max-width: 64px;
+max-height: 64px;
+}
